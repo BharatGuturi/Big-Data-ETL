@@ -2,7 +2,7 @@
 To perform the ETL process completely in the cloud and upload a DataFrame to an RDS instance. 
 
 # Instructions
-1)  To execute the project follow the below commands: git clone https://github.com/BharatGuturi/Big-Data-ETL.git
+1)  To execute the project follow the below commands for the files "part_one_reviews_us_Software" and "part_one_reviews_us_Grocery": git clone https://github.com/BharatGuturi/Big-Data-ETL.git
 
 2)  Create an AWS account.
 
@@ -34,4 +34,6 @@ To perform the ETL process completely in the cloud and upload a DataFrame to an 
     
     config = {"user":"", "password": "", "driver":"org.postgresql.Driver"}
     
-Run the "Unsupervised Machine Learning.ipynb" file
+7) Run the files: "part_one_reviews_us_Software" and "part_one_reviews_us_Grocery"
+    
+
