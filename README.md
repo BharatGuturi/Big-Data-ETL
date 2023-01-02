@@ -28,4 +28,10 @@ To perform the ETL process completely in the cloud and upload a DataFrame to an 
     pip install pypandoc
     pip install pyspark
     
+6) In the following command in the 'Load' section, use the endpoint created in AWS in <endpoint> and database name in <database_name>. In the config command, use the username and password used to create the database
+ 
+    jdbc_url="jdbc:postgresql://<endpoint>:5432/<database_name>" 
+    
+    config = {"user":"", "password": "", "driver":"org.postgresql.Driver"}
+    
 Run the "Unsupervised Machine Learning.ipynb" file
